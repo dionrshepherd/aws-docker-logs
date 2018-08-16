@@ -1,4 +1,5 @@
-FROM weareroam/node-boron:0.0.1
+#FROM weareroam/node-boron:0.0.1
+FROM node:8
 
 USER root
 
