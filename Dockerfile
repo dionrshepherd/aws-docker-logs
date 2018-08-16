@@ -15,6 +15,5 @@ RUN npm install
 
 EXPOSE 3636
 
-USER sauce
 CMD [ "npm", "start" ]
 ENTRYPOINT ["node"]
