@@ -3,7 +3,7 @@ FROM weareroam/node-boron:0.0.1
 USER root
 
 # Create app directory
-WORKDIR /usr/src/app
+#WORKDIR /usr/src/app
 
 # Bundle app source
 COPY src .
