@@ -16,4 +16,3 @@ RUN npm install
 EXPOSE 3636
 
 CMD [ "npm", "start" ]
-ENTRYPOINT ["node"]
